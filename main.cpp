@@ -8,21 +8,19 @@ able to write anything when i get better at it. My favorite language!
 and the inventors books are supurb. he encurages KeepItSimpleStupid
 and now... so do I to myself....
 */
-class swap
-{
+class swap {
 public:
         double x, y;
-swap(double, double);
+        swap(double, double); 
 };
-swap::swap(double xrt, double yrt){ 
+swap::swap(double xrt, double yrt){
         x = yrt; y = xrt; 
 }
-//can anyone do it easier, looked online? maybe it can be
-//written with more simplicity with some help
-
-/*or: 
-swap(x, y) : x(yrt), y(xrt) {};
-*/
+/* can anyone do it easier, looked online? maybe it can be
+ * written with more simplicity with some help
+ * or in one real line...: 
+ * swap(x, y) : x(yrt), y(xrt) {};
+ */
 int main()
 {
         std::cout << "Current Values: " << '\n';
