@@ -8,6 +8,10 @@ public:
 swap(double, double);
 };
 swap::swap(double xrt, double yrt){ x = yrt; y = xrt; }
+/*or in psudocode: 
+swap(dub xrt, dub xrt) : x(xrt), y(yrt) {};
+
+*/
 
 int main()
 {
